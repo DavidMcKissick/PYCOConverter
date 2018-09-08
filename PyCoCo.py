@@ -1,8 +1,6 @@
 import time
 # Python 3.7
-# Todo: 
-# 	Add values for all convertable units
-# 	Add conversion logic (Divide if unit is going down, multiply if up(?), translate directly if to mm)
+
 version = 1.0
 #Begin distance____________________________
 mm = 1 #The base measurement for distance conversion. Downward calculations will be based on dividing the greater number by the lesser number
