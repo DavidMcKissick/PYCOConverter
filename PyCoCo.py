@@ -246,6 +246,13 @@ def tempHandler():
 		tempCalc(2, "0", FahrenInp)
 	elif choice == "exit":
 		main()
-
+	elif choice == "help":
+		lb()
+		print(">>>>>type the number of your selection to select your function, type exit to return to the main menu.<<<<<")
+		lb()
+		tempHandler()
+	else:
+		print("I do not undersand that input")
+		tempHandler()
 intro()
 main()
